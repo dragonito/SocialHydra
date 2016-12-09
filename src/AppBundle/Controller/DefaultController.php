@@ -13,9 +13,9 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        $twitter = $this->get('endroid.twitter');
-        $test = $twitter->query('statuses/update', 'POST', 'json', array('status' => "Hello World"));
-        dump($test);
+        #$twitter = $this->get('endroid.twitter');
+        #$test = $twitter->query('statuses/update', 'POST', 'json', array('status' => "Hello World"));
+        #dump($test);
 
         // replace this example code with whatever you need
         return $this->render('default/index.html.twig', [
