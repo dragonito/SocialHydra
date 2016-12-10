@@ -17,3 +17,16 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    twitter_consumer_key: ~
+    twitter_consumer_secret: ~
+    twitter_access_token: ~
+    twitter_access_token_secret: ~
+
+    vk_standalone_application_access_token: ~
+    vk_group_id: ~
+
+    facebook_access_token: ~
+    facebook_application_id: ~
+    facebook_application_secret: ~
+    facebook_page_id: ~

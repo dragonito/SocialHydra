@@ -76,3 +76,19 @@ endroid_twitter:
     consumer_secret:      "%twitter_consumer_secret%"
     access_token:         "%twitter_access_token%"
     access_token_secret:  "%twitter_access_token_secret%"
+
+
+wall_poster:
+    vk:
+        access_token: "%vk_standalone_application_access_token%"
+        group_id:     "%vk_group_id%"
+    facebook:
+        access_token: "%facebook_access_token%"
+        app_id:       "%facebook_application_id%"
+        app_secret:   "%facebook_application_secret%"
+        page:         "%facebook_page_id%"
+    twitter:
+        api_key:       "%twitter_consumer_key%"
+        api_secret:    "%twitter_consumer_secret%"
+        access_token:  "%twitter_access_token%"
+        access_secret: "%twitter_access_token_secret%"

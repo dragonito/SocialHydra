@@ -6,3 +6,6 @@ app:
 #    resource:   "@EndroidTwitterBundle/Controller/"
 #    type:       annotation
 #    prefix:     /twitterapi
+
+WallPosterBundle:
+    resource: "@WallPosterBundle/Resources/routing/routing.yml"
